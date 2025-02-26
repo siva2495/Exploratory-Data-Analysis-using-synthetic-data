@@ -1,4 +1,6 @@
 # Exploratory-Data-Analysis-using-synthetic-data
+
+
 ##Dataset Overview
 The dataset contains 1,000 rows and 9 columns with both numerical and categorical features.
 The numerical columns include Area, Bedrooms, Bathrooms, Garage, and Price, while categorical columns include Seller Name, House Location, Pool, and Garden.
