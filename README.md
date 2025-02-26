@@ -10,6 +10,8 @@ Missing Values: Several features contained missing values, such as House Locatio
 Missing Value Imputation:
 Categorical values were filled with mode (most frequent value).
 Numerical values were filled with mean.
+
+
 ##Key Data Insights
 Average House Price: 376,670.91 INR
 Location Distribution:
@@ -21,6 +23,8 @@ Presence of a pool (+40,000 INR) and a garden (+15,000 INR) increases the price.
 Data Structure:
 Object-type columns (categorical): Seller Name, House Location, Pool, Garden.
 Float-type columns (numerical): Area, Bedrooms, Bathrooms, Garage, Price.
+
+
 ##Conclusion
 The dataset is now cleaned and ready for further analysis.
 The primary drivers of price variation are property size, number of rooms, and amenities (pool, garden, garage).
