@@ -41,3 +41,33 @@
 - The primary drivers of price variation are property size, number of rooms, and amenities (pool, garden, garage).
 
 - Missing data was handled appropriately, ensuring better model performance in future analyses.
+
+## Learnings
+- Data Generation and Simulation
+  - Using Faker, random, and numpy to generate synthetic datasets for analysis.
+  - Understanding how to create realistic datasets for testing and modeling.
+  - Introducing controlled randomness for simulating real-world scenarios.
+- Data Exploration & Summarization
+  - Using data.shape, data.dtypes, and data.describe() to understand the dataset structure.
+  - Differentiating between numerical and categorical features.
+  - Identifying unique values in each feature.
+- Data Visualization for EDA
+  - Creating bar charts to visualize unique values in categorical and numerical features.
+  - Using missingno library to analyze missing values visually.
+  - Applying matplotlib for graphical representation of missing data locations.
+- Data Quality Assessment
+  - Detecting duplicate records in the dataset using duplicated().
+  - Checking for missing values using isnull().sum().
+  - Understanding how missing values impact dataset quality and analysis
+- Handling Missing Values
+  - Using mode imputation for categorical features (e.g., fillna(mode())).
+  - Using mean imputation for numerical features (fillna(mean())).
+  - Understanding when and why to use different imputation techniques.
+- Feature Engineering & Price Calculation
+  - Using the apply function to create a new feature (Price).
+  - Understanding how different property attributes (e.g., area, bedrooms, pool) impact pricing.
+  - Introducing random noise (np.random.normal) to simulate real-world pricing variations.
+- Statistical Analysis & Insights Extraction
+  - Calculating average house prices from the dataset.
+  - Analyzing house distribution across locations.
+  - Understanding how to pose questions and extract business insights from data.
